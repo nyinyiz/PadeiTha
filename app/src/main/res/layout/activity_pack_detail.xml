@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/titleBar"
+        layout="@layout/title_back_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnApply"
+        android:layout_below="@id/titleBar">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_medium_2"
+            tools:context=".ui.services.PackDetailActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_medium"
+                android:background="@drawable/background_rounded_grey_border_2">
+
+                <ImageView
+                    android:id="@+id/ivPack"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/placeholder"/>
+
+                <TextView
+                    android:id="@+id/tvPackTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pack Title"
+                    android:textSize="@dimen/text_heading"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:layout_marginTop="@dimen/margin_medium"/>
+
+                <TextView
+                    android:id="@+id/tvPackPartner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pack Partner"
+                    android:textColor="@color/primary_text"
+                    android:layout_marginTop="@dimen/margin_small"/>
+
+                <TextView
+                    android:id="@+id/tvPackPostedDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17 Dec 2019"
+                    android:textSize="@dimen/text_small"
+                    android:textColor="@color/secondary_text"
+                    android:layout_marginTop="@dimen/margin_small"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:padding="@dimen/margin_medium"
+                android:background="@drawable/background_rounded_grey_border_2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_regular"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvContactPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_no"
+                    android:lineSpacingMultiplier="1.3"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_regular"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:padding="@dimen/margin_medium"
+                android:background="@drawable/background_rounded_grey_border_2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pack_details"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_regular"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/long_text_mm"
+                    android:lineSpacingMultiplier="1.3"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_regular"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:layout_marginBottom="@dimen/margin_medium_2"
+                android:padding="@dimen/margin_medium"
+                android:background="@drawable/background_rounded_grey_border_2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pack_rule"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_regular"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvRule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/long_text_mm"
+                    android:lineSpacingMultiplier="1.3"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_regular"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/btnApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_rounded_primary_4"
+        android:gravity="center"
+        android:padding="@dimen/margin_medium_3"
+        android:text="@string/get_pack"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2"/>
+
+</RelativeLayout>

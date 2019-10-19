@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.news.NewsDetailActivity">
+
+    <include
+        android:id="@+id/titleBar"
+        layout="@layout/title_back_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ivPost"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/tvPostTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is a title"
+                android:textSize="@dimen/text_heading_1x"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/margin_medium_2"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium_2"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_medium_2"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium">
+                <ImageView
+                    android:id="@+id/ivPostedUserImage"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_profile_grey"/>
+                <TextView
+                    android:id="@+id/tvPostedUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ရွှေလီ လယ်ယာသုံး စက်အပိုပစ္စည်းဆိုင်"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_regular"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_toEndOf="@id/ivPostedUserImage"/>
+
+                <TextView
+                    android:id="@+id/tvPostedDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17 Dec at 9:00 AM"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/text_smaller"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_below="@id/tvPostedUser"
+                    android:layout_toEndOf="@id/ivPostedUserImage"/>
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/long_text_mm"
+                android:textColor="@color/primary_text"
+                android:lineSpacingMultiplier="1.3"
+                android:layout_margin="@dimen/margin_medium_2"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

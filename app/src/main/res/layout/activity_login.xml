@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:background="@drawable/background_login"
+    tools:context=".ui.login.LoginActivity">
+
+    <TextView
+        android:id="@+id/btnPhoneLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/background_rounded_phone"
+        android:drawablePadding="@dimen/margin_medium_2"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:gravity="center_vertical"
+        android:padding="22dp"
+        android:text="Sign up with Phone"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold"
+        android:layout_above="@id/btnFbLogin"
+        android:layout_marginBottom="@dimen/margin_medium_2"/>
+
+    <TextView
+        android:id="@+id/btnFbLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/background_rounded_facebook"
+        android:drawablePadding="@dimen/margin_medium_2"
+        android:drawableStart="@drawable/ic_icons8_facebook"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Sign up with Facebook"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_above="@id/tvTandC"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/tvTandC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t_and_c"
+        android:textSize="@dimen/text_smaller"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+
+
+
+</RelativeLayout>

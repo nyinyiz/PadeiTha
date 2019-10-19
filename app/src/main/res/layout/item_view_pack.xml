@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:background="#1A696969"
+    android:layout_marginTop="@dimen/margin_medium_2"
+    android:layout_marginStart="@dimen/margin_medium_2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1A696969"
+        android:padding="@dimen/margin_medium">
+        <ImageView
+            android:id="@+id/ivPack"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ပေါက်တူးပေါက်စက်(Mini Tiller)"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"
+            android:lines="2"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_regular_2x"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_below="@id/ivPack"/>
+        <TextView
+            android:id="@+id/tvPartner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/partner_name"
+            android:textColor="@color/secondary_text"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_small"
+            android:layout_below="@id/tvTitle"/>
+        <TextView
+            android:id="@+id/btnViewDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="35dp"
+            android:background="@drawable/background_rounded_primary_4"
+            android:layout_below="@id/tvPartner"
+            android:text="@string/see_more"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:padding="@dimen/margin_medium"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
+

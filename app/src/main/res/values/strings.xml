@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">ပဒေသာ</string>
+
+    <string name="t_and_c">
+        Please check <b>Terms and Condition</b> label for continuing by agreement of user.
+    </string>
+    <string name="long_text">Advanced technologies of digitalization and automation of data processing first find their
+        application in business. Then also in public institutions can be introduced including in the field of
+        e-governance. This also applies to Big Data database technologies, which is appli-cable in various sectors of
+        the economy, but due to the high investment costs of implement-ing this technology in the business processes of
+        business entities, so far only large corpora-tions and larger enterprises can afford such technologies. However,
+        in the future, invest-ment costs of implementing tech technologies into business processes should decrease and
+        processing technologies and data collection in Big Data database systems should be available also for smaller
+        companies, includ-ing business entities of the SME sector.SMEs are specifically selected within context for two
+        main reasons: a) A small change in SMEs can have larger macro level effect due to their overall position in the
+        economy; b) They have the advantage and flexibility for quicker ad-aptation to changes towards efficiency. The
+        Big Data context, however, still have signifi-cant contentious issues as; storage, capabili-ties of the
+        companies in terms of processing and generating sensible information from it, and last but not least, security
+        and privacy. This article is aimed to propose grounds for future Big Data research for SMEs by examin-ing main
+        potentials and threats that have to be addressed. Finally, we recommend poten-tial practices that will help SMEs
+        and re-searchers for capturing the full potential of Big Data.
+    </string>
+    <string name="long_text_mm">
+        GPS အသေးစား ငွေချေး လုပ်ငန်းမှ တောင်သူလယ်သမားများအတွက် ငွေရေးကြေးရေး ဆိုင်ရာ အခက်အခဲများကို လိုလေသေးမရှိအောင် လစဉ် အတိုးနှုန်းသက်သက်သာသာဖြင့် ချေးပေး၍ ကူညီဆောင်ရွက်ပေးလျက်ရှိပါသည်။ ငွေတိုးနှုန်း နှင့် လစဉ် ချေးယူနိုင်သည့် ဝန်ဆောင်မှုအမျိုးမျိုးအား အသေးစိတ်သိရှိလိုပါက ဖော်ပြပါဖုန်နံပါတ်အား ဆက်သွယ်မေးမြန်းနိုင်ပါသည်။
+    </string>
+
+    <string name="title_1">
+        ဝန်ဆောင်မှုများ
+    </string>
+
+    <string name="title_2">
+        ဖတ်စရာ
+    </string>
+
+    <string name="title_3">
+        အကူအညီ
+    </string>
+    <string name="view_detail">
+        အသေးစိတ်လေ့လာမည်
+    </string>
+
+    <string name="get_pack">
+        လျှောက်ထားမည်
+    </string>
+    <string name="see_more">
+        ကြည့်ရန်
+    </string>
+
+    <string name="partner_name">မြင်းကျား လယ်ယာသုံးစက်ပစ္စည်းဆိုင်</string>
+    <string name="call_phone">ဖုန်းဆက်သွယ်ရန်</string>
+    <string name="phone_explain">တစ်စုံတစ်ခု မရှင်းလင်းပါက တိုက်ရိုက်ဖုန်းခေါ်ဆိုနိုင်ပါသည်။</string>
+    <string name="qanda">အမေးအဖြေ</string>
+    <string name="help_explain">မေးလေ့မေးထရှိသည်များကို ရှာဖွေဖတ်ရှုရန်။</string>
+    <string name="emergency">အရေးပေါ်</string>
+    <string name="emergency_explain">အရေးပေါ်ချေးငွေလျှောက်ထားရန်</string>
+
+    <string name="user_form">ကိုယ်ရေးအချက်အလက်</string>
+    <string name="fill_nrc">မိမိမှတ်ပုံတင်ဖြည့်ရန်</string>
+    <string name="nrc_front">မှတ်ပုံတင်အရှေ့ခြမ်း</string>
+    <string name="nrc_back">မှတ်ပုံတင်အနောက်ခြမ်း</string>
+    <string name="name">မှတ်ပုံတင်ထဲမှနာမည်</string>
+    <string name="phone">မိမိဖုန်းနံပတ်</string>
+    <string name="gender">ကျား/မ</string>
+    <string name="male">ကျား</string>
+    <string name="female">မ</string>
+    <string name="date_of_birth">မွေးနေ့</string>
+    <string name="year">နှစ်</string>
+    <string name="month">လ</string>
+    <string name="date">ရက်</string>
+    <string name="address">လိပ်စာအပြည့်အစုံ</string>
+    <string name="city">ပြည်နယ်/တိုင်း</string>
+    <string name="township">မြို့နယ်</string>
+    <string name="block">ရပ်ကွက်/ခရိုင်</string>
+    <string name="street">လမ်း</string>
+    <string name="no">အမှတ်</string>
+    <string name="get_address_from_map">မြေပုံမှ မိမိနေရပ်လိပ်စာအားရွေးချယ်ရန်</string>
+    <string name="next">ဆက်ရန်</string>
+    <string name="contact_phone">ခေါ်ဆိုနိုင်သောဖုန်းနံပတ်များ</string>
+    <string name="search">ရှာဖွေရန်</string>
+    <string name="phone_no">09799558126</string>
+    <string name="contact">ဆက်သွယ်ရန်</string>
+    <string name="pack_details">အသေးစိတ်</string>
+    <string name="pack_rule">လိုက်နာရမည့်အချက်များ</string>
+
+
+</resources>

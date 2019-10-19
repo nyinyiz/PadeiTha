@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_medium_2">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a title"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/long_text_mm"
+        android:lineSpacingMultiplier="1.3"
+        android:lines="4"
+        android:maxLines="4"
+        android:textColor="@color/primary_text"
+        android:layout_toLeftOf="@id/ivNoti"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_below="@id/tvTitle"/>
+    <ImageView
+        android:id="@+id/ivNoti"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/placeholder"
+        android:layout_alignParentEnd="true"/>
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New"
+        android:textColor="@color/white"
+        android:layout_below="@id/tvBody"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:padding="@dimen/margin_medium"
+        android:background="@drawable/background_rounded_red"/>
+    <TextView
+        android:id="@+id/tvPostedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17 Dec 2019"
+        android:textColor="@color/secondary_text"
+        android:layout_below="@id/tvBody"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:padding="@dimen/margin_medium"
+        android:layout_toEndOf="@id/tvStatus"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_below="@id/tvPostedDate"/>
+</RelativeLayout>
