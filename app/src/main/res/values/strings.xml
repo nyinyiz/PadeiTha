@@ -90,6 +90,9 @@
     <string name="lone_alert">အထက်ဖြည့်သွင်းပါအချက်အလက်များအား သက်ဆိုင်ရာအဖွဲ့အစည်းမှ ပြန်လည်စီစစ်ပြီး ၄၈နာရီအတွင်း လူကြီးမင်း၏ချေးငွေရရှိနိုင်ရန်ဆောင်ရွက်ပေးမည်ဖြစ်ပါသည်။ကျေးဇူးတင်ပါသည်။</string>
     <string name="yes">လုပ်ဆောင်မည်</string>
     <string name="cancel">ပယ်ဖျက်မည်</string>
+    <string name="notification">အသိပေးချက်</string>
+    <string name="news_detail">သတင်းအကြောင်းအရာ</string>
+    <string name="pack_desc">ဝန်ဆောင်မှုအသေးစိတ်</string>
 
 
 </resources>

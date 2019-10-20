@@ -54,6 +54,7 @@ class MainActivity : BaseActivity() {
             .commit()
 
         fm.beginTransaction().show(packFragment).commit()
+        tvTitle.text = getString(R.string.title_1)
 
         bottom_navigation.setOnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {

@@ -35,10 +35,10 @@ class PackDetailActivity : BaseActivity() {
             onBackPressed()
         }
 
-
     }
 
     private fun bindData() {
+        tvTitle.text = getString(R.string.pack_desc)
         ivPack.load(url = HttpUrl.parse(packData.PackImgURL)) {
             crossfade(true)
             placeholder(R.drawable.placeholder)

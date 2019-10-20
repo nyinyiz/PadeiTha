@@ -40,6 +40,7 @@ class NewsDetailActivity : BaseActivity() {
 
     private fun bindData() {
 
+        tvTitle.text = getString(R.string.news_detail)
         if (newsData.PostImage != "") {
             ivPost.visibility = View.VISIBLE
             ivPost.load(url = HttpUrl.parse(newsData.PostImage)) {
