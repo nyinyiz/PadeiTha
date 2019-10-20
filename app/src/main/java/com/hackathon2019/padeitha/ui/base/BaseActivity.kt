@@ -53,11 +53,11 @@ abstract class BaseActivity : AppCompatActivity() {
                 .setTitle(title)
                 .setMessage(errorMessage)
                 .setPositiveButton(
-                    android.R.string.ok
+                    R.string.yes
                 ) { dialog, which ->
                     callBack.onClickPositive(dialog)
                 }
-                .setNegativeButton(android.R.string.no) { dialog, which ->
+                .setNegativeButton(R.string.cancel) { dialog, which ->
                     callBack.onClickNegative(dialog)
                 }
                 .setIcon(android.R.drawable.ic_dialog_alert)
