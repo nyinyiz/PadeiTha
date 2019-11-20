@@ -127,7 +127,7 @@ class EmergencyCallPhoneDialogFragment : DialogFragment() {
         when (requestCode) {
             PERMISSIONS_REQUEST_CALL_PHONE -> {
                 // If request is cancelled, the result arrays are empty.
-                if ((grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
+                if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     // permission was granted, yay! Do the
                     // contacts-related task you need to do.
                     toast("Permission granted")
